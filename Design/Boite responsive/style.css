@@ -1,0 +1,105 @@
+body, html{
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  font-family: 'montserrat';
+  display: grid;
+  grid-template-columns:auto;
+  grid-template-rows:auto;
+}
+
+/* Ici pour changer la couleur du dégrader bleu */
+
+.bg, .bg2{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.bg{
+ -webkit-clip-path: polygon(72% 74%, 100% 27%, 100% 100%, 5% 100%);
+clip-path: polygon(72% 74%, 100% 27%, 100% 100%, 5% 100%);
+  z-index: -1;
+  background-color: #226dbc;
+}
+
+.bg2{
+  z-index: -2;
+  background-color: #2a5f98;
+  -webkit-clip-path: polygon(64% 100%, 100% 27%, 62% 67%, 4% 100%);
+clip-path: polygon(64% 100%, 100% 27%, 62% 67%, 4% 100%);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 50% auto;
+  height: auto;
+  align-self: center;
+  margin: 0 50px;
+}
+
+ul{
+  list-style-type: none;
+  perspective: 1000px;
+}
+
+ul li{
+  display: grid;
+   grid-template-columns: 20% auto;
+  border-radius:10px;
+  padding: 14px;
+  cursor: pointer;
+  transform: rotateY(-35deg) rotateX(15deg);
+  position: absolute;
+  border-bottom: 4px solid rgba(0,0,0,.2);
+  border-right: 4px solid rgba(0,0,0,.2);
+ 
+  transition: 0.7s;
+  
+}
+
+ul li:nth-child(1){
+  color:#fff;
+  background-color: #8063E1;
+ background-image: linear-gradient(135deg, #BD7BE8, #8063E1);
+  top: -112px;
+  z-index: 2;
+}
+
+ul li:nth-child(2){
+   background-color: #3F58E3;
+   background-image: linear-gradient(135deg, #7F94FC, #3F58E3);
+  z-index: 1;
+  color:white;
+}
+
+ul li:nth-child(3){
+  color:#fff;
+  background-color: #352F64;
+  background-image: linear-gradient(135deg, #415197, #352F64);
+  top: 115px;
+  z-index: 0;
+  
+}
+
+ul li:hover{
+  transform: translateY(30px)  rotateY(-35deg) rotateX(15deg) scale(1.2);
+  z-index:3; 
+  
+  
+}
+img{
+  width:70px;
+}
+
+h1{
+  font-size: 3em;
+  margin-top: 0;
+}
+
+#left > p{
+  color:grey;
+  line-height: 1.5em;
+}
