@@ -1,32 +1,32 @@
-# 🌐 Ressources Web pour Développeurs
+# 🌐 Web Resources for Developers
 
 ## 📜 Description
 
-Ce projet regroupe un ensemble de **ressources utiles** pour la création de sites web modernes et responsives. Il fournit des exemples pratiques et des outils pour améliorer vos designs, ajouter des effets interactifs et créer des menus dynamiques.
+This project gathers a set of **useful resources** for creating modern and responsive websites. It provides practical examples and tools to improve your designs, add interactive effects, and create dynamic menus.
 
-## 🌟 Fonctionnalités
+## 🌟 Features
 
-- **ChartJS** : Intégration simple de graphiques interactifs.
-- **Design** : Boîtes responsives, thèmes sombre/clair, images et menus stylisés.
-- **Effets** : Animations comme le flou, le texte changeant ou le tremblement.
-- **Menus** : Collection d'exemples de menus interactifs et responsives.
+- **ChartJS**: Simple integration of interactive charts.
+- **Design**: Responsive boxes, dark/light themes, styled images, and menus.
+- **Effects**: Animations like blur, changing text, or shaking effects.
+- **Menus**: Collection of examples of interactive and responsive menus.
 
-## 📂 Structure du Projet
+## 📂 Project Structure
 
 ```
-RessourcesWeb/
+WebResources/
 ├── ChartJS/
-│   ├── index.html          # Exemple de graphiques interactifs avec ChartJS
-│   └── main.js             # Script pour générer des graphiques
+│   ├── index.html          # Example of interactive charts with ChartJS
+│   └── main.js             # Script to generate charts
 ├── Design/
-│   ├── Boite responsive/   # Exemples de boîtes responsives
-│   ├── Image a cote/       # Images alignées pour design moderne
-│   ├── Menu principal/     # Modèles de menus principaux
-│   └── Sombre Clair/       # Thème sombre/clair basculable
-├── Effet/
-│   ├── Flou/               # Ajout d'effets de flou
-│   ├── Texte qui change/   # Animation de texte interactif
-│   └── Tremblement/        # Effet de tremblement pour éléments
+│   ├── ResponsiveBox/      # Examples of responsive boxes
+│   ├── SideImage/          # Side-aligned images for modern design
+│   ├── MainMenu/           # Main menu templates
+│   └── DarkLight/          # Toggleable dark/light theme
+├── Effects/
+│   ├── Blur/               # Adding blur effects
+│   ├── ChangingText/       # Interactive text animation
+│   └── Shaking/            # Shaking effect for elements
 ├── Menu/
 │   ├── 1/
 │   ├── 2/
@@ -35,25 +35,25 @@ RessourcesWeb/
 │   └── 7/
 ```
 
-## 🚀 Utilisation
+## 🚀 Usage
 
-1. Clonez ce repository :
+1. Clone this repository:
    ```sh
-   git clone https://github.com/username/RessourcesWeb.git
+   git clone https://github.com/username/WebResources.git
    ```
-2. Naviguez dans les dossiers pour explorer les exemples.
-3. Intégrez les ressources dans vos projets web.
+2. Navigate through the folders to explore the examples.
+3. Integrate the resources into your web projects.
 
-## 💡 Exemples d'Utilisation
+## 💡 Usage Examples
 
-- **Graphiques :** Incluez `ChartJS/index.html` dans votre projet pour visualiser des données de manière interactive.
-- **Thèmes :** Utilisez `Design/Sombre Clair/` pour implémenter un mode sombre/clair basculable.
-- **Effets :** Appliquez des animations comme le flou ou le tremblement pour enrichir vos designs.
+- **Charts:** Include `ChartJS/index.html` in your project to visualize data interactively.
+- **Themes:** Use `Design/DarkLight/` to implement a toggleable dark/light mode.
+- **Effects:** Apply animations like blur or shaking to enhance your designs.
 
-## 🛠️ Prérequis
+## 🛠️ Prerequisites
 
-- Navigateur moderne compatible avec HTML5, CSS3 et JavaScript.
+- A modern browser compatible with HTML5, CSS3, and JavaScript.
 
-## 📜 Licence
+## 📜 License
 
-Ce projet est sous licence MIT. Vous êtes libre de le modifier et de le redistribuer.
+This project is licensed under the MIT license. You are free to modify and redistribute it.
